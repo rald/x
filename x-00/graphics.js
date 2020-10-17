@@ -17,7 +17,7 @@ function drawLine(x0,y0,x1,y1,color) {
 	ctx.closePath();
 }
 
-function drawCircle(x,y,r) {
+function drawCircle(x,y,r,color) {
 	ctx.beginPath();
 	ctx.strokeStyle=color;
 	ctx.arc(x,y,r,0,2*Math.PI);
@@ -25,7 +25,7 @@ function drawCircle(x,y,r) {
 	ctx.closePath();
 }
 
-function fillCircle(x,y,r) {
+function fillCircle(x,y,r,color) {
 	ctx.beginPath();
 	ctx.fillStyle=color;
 	ctx.arc(x,y,r,0,2*Math.PI);

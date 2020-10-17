@@ -18,12 +18,7 @@ function draw() {
 
 	fillRect(0,0,canvas.width,canvas.height,palette[0]);
 
-	var size=32;
-	for(var i=0;i<palette.length;i++) {
-		var x=(i%4)*size;
-		var y=Math.floor(i/4)*size+canvas.height-size*4;
-		fillRect(x,y,size,size,palette[i]);
-	}
+	drawCircle(canvas.width/2,canvas.height/2,16,palette[12]);
 
 }
 
@@ -45,4 +40,3 @@ function main() {
 
 
 main();
-
