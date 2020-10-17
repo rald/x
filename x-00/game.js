@@ -18,8 +18,6 @@ function draw() {
 
 	fillRect(0,0,canvas.width,canvas.height,palette[0]);
 
-	drawCircle(canvas.width/2,canvas.height/2,16,palette[12]);
-
 }
 
 
